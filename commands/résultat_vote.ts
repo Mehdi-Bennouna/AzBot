@@ -1,3 +1,4 @@
+import { ICommand } from "wokcommands";
 import {
   DiscordAPIError,
   Emoji,
@@ -6,7 +7,6 @@ import {
   User,
 } from "discord.js";
 import DiscordJs from "discord.js";
-import { ICommand } from "wokcommands";
 
 import dotenv from "dotenv";
 import { Channel } from "discord.js";
