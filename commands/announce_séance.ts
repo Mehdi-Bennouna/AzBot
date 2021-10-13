@@ -40,6 +40,12 @@ export default {
       ],
     },
     {
+      name: "type",
+      description: "Type de la séance",
+      type: 3,
+      required: true,
+    },
+    {
       name: "date",
       description: "Date de la séance",
       type: 3,
@@ -69,6 +75,10 @@ export default {
             {
               name: "__Module__:",
               value: interaction.options.getString("module")!,
+            },
+            {
+              name: "__Type__",
+              value: interaction.options.getString("type")!,
             },
             {
               name: "__Date__:",
