@@ -1,0 +1,21 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Contacts Délegués",
+      "color": 7305446,
+      "fields": [
+        {
+          "name": "__Délegués de section__",
+          "value": "Déleguée  : Yalaa Manel\n> yalamanel@gmail.com\n\nSupleant : BENNOUNA Mehdi\n> Bennouna.Mehdi@hotmail.com\n> @Azpect",
+          "inline": true
+        },
+        {
+          "name": "__Délegues de groupes__",
+          "value": "Délegué Groupe 1 : someone i dont know\n> someoneidontknow@gmail.com\n> @hisDiscordTag\n\nDélegué Groupe 2 : someone\n> someone@gmail.com\n\nDélegué Groupe 3 : someone\n> someone@gmail.com\n\nDélegué Groupe 4 : someone\n> someone@gmail.com",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "content": null,
+    "embeds": [
+      {
+        "color": 15150381,
+        "fields": [
+          {
+            "name": "Question",
+            "value": "Date séance de découverte  Mr Zellal​"
+          },
+          {
+            "name": "choix",
+            "value": ":regional_indicator_a: Mardi 05/10\n:regional_indicator_b: Mercredi 06/10\n:regional_indicator_c: Jeudi 07/10"
+          },
+          {
+            "name": "​",
+            "value": ":no_entry: Pas de choix multiple"
+          }
+        ]
+      }
+    ],
+    "username": "ACAD L3"
+  }

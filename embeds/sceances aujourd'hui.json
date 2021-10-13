@@ -1,0 +1,15 @@
+{
+    "content": null,
+    "embeds": [
+      {
+        "title": "Scéances Aujourd'hui\n​",
+        "color": null,
+        "fields": [
+          {
+            "name": "__Extraction de données__",
+            "value": "Cours : 18:00\n> https://meet.google.com/uoc-vdcx-dij"
+          }
+        ]
+      }
+    ]
+  }

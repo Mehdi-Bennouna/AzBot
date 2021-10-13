@@ -1,0 +1,58 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Contacts Profs",
+      "color": 11387900,
+      "fields": [
+        {
+          "name": "__Compilation__",
+          "value": "Cours + TD +TP : IOUALALEN\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "__Extraction d'information__",
+          "value": "Cours : ZELLAL\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "​",
+          "value": "​"
+        },
+        {
+          "name": "__Génie Logiciel__",
+          "value": "Cours + TP + TD : HAMMAL\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "__Réseaux__",
+          "value": "Cours +TP + TD: ABDELLI\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "​",
+          "value": "​"
+        },
+        {
+          "name": "__Théorie des graphes__",
+          "value": "Cours + TD  : BENKAOUHA\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "__Système d'exploitation__",
+          "value": "Cours + TD: BELGUERCHE\n> (pas encore de mail)",
+          "inline": true
+        },
+        {
+          "name": "​",
+          "value": "​"
+        },
+        {
+          "name": "__Anglais__",
+          "value": "TD : (pas encore de nom)\n> (pas encore de mail)",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
