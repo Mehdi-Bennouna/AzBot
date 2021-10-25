@@ -14,54 +14,76 @@ export default {
       required: true,
     },
     {
-      name: "Lien 1",
+      name: "lien_1",
       description: "Lien #1",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 2",
+      name: "lien_2",
       description: "Lien #2",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 3",
+      name: "lien_3",
       description: "Lien #3",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 4",
+      name: "lien_4",
       description: "Lien #4",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 5",
+      name: "lien_5",
       description: "Lien #5",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 6",
+      name: "lien_6",
       description: "Lien #6",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 7",
+      name: "lien_7",
       description: "Lien #7",
       type: 3,
       required: false,
     },
     {
-      name: "Lien 8",
+      name: "lien_8",
       description: "Lien #8",
       type: 3,
       required: false,
     },
   ],
 
-  callback: ({ interaction, channel }) => {},
+  callback: async ({ interaction, channel }) => {
+    let myString = interaction.options.getString("contenu")!;
+    for (let i = 1; i < interaction.options.data.length; i++) {
+      const element = interaction.options.data[i].value;
+      if (element == undefined) {
+        break;
+      }
+      myString += "\n" + element;
+    }
+
+    await channel.send({
+      embeds: [
+        {
+          title: "Annonce",
+          description: myString,
+        },
+      ],
+      content:
+        "||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​|| _ _ _ _ _ _ <@everyone>",
+    });
+
+    interaction.reply({ ephemeral: true, content: "done" });
+  },
 } as ICommand;

@@ -6,6 +6,7 @@ dotenv.config();
 
 const client = new DiscordJs.Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
+  allowedMentions: { parse: ["everyone", "users"] },
 });
 
 client.on("ready", () => {
