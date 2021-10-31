@@ -10,8 +10,6 @@ const client = new DiscordJs.Client({
 });
 
 client.on("ready", () => {
-  console.log("AzBot-Beta Online");
-
   new WOKCommands(client, {
     commandsDir: path.join(__dirname, "commands"),
     typeScript: true,
