@@ -35,6 +35,6 @@ export default {
       ],
     });
 
-    interaction.reply("done");
+    interaction.reply("Success");
   },
 } as ICommand;

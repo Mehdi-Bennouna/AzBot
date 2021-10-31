@@ -43,6 +43,8 @@ export default {
       return { reaction: e, users: myUsers[i].sort() };
     });
 
-    interaction.reply("test done");
+    interaction.reply(
+      "please dont use this shitty command it just wont work for now thank you."
+    );
   },
 } as ICommand;

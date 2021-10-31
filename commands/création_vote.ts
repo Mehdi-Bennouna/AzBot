@@ -166,7 +166,7 @@ export default {
       });
 
     interaction.reply({
-      content: "Votre vote a bien été créé",
+      content: "Success",
       ephemeral: true,
     });
   },

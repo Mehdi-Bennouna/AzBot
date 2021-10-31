@@ -97,6 +97,6 @@ export default {
         },
       ],
     });
-    interaction.reply({ ephemeral: true, content: "Done" });
+    interaction.reply({ ephemeral: true, content: "Success" });
   },
 } as ICommand;
