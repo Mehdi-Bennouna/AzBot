@@ -43,7 +43,6 @@ export default {
       return { reaction: e, users: myUsers[i].sort() };
     });
 
-    console.log(finalArray);
     interaction.reply("test done");
   },
 } as ICommand;
