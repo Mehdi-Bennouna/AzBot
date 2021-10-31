@@ -26,5 +26,8 @@
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
     "wokcommands": "^1.5.1"
+  },
+  "engines": {
+    "node": "17.0.1"
   }
 }
