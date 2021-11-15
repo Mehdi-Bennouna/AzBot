@@ -37,6 +37,10 @@ export default {
           name: "système d'exploitation",
           value: "Système d'exploitation",
         },
+        {
+          name: "anglais",
+          value: "anglais",
+        },
       ],
     },
     {
