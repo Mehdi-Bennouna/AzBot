@@ -18,7 +18,7 @@ export default {
 
   callback: ({ interaction, channel }) => {
     channel.send({
-      content: "<@everyone>",
+      content: "@everyone",
       embeds: [
         {
           title: "Annonce Vote",

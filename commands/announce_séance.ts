@@ -70,7 +70,7 @@ export default {
   ],
   callback: ({ interaction, channel }) => {
     channel.send({
-      content: "<@everyone>",
+      content: "@everyone",
       embeds: [
         {
           color: 11403008,

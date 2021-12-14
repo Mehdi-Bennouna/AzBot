@@ -155,7 +155,7 @@ export default {
 
     interaction.channel
       ?.send({
-        content: "<@everyone>",
+        content: "@everyone",
         embeds: [embed],
       })
       .then((sentMessage) => {

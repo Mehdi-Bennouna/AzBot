@@ -80,7 +80,7 @@ export default {
           description: myString,
         },
       ],
-      content: "<@everyone>",
+      content: "@everyone",
     });
 
     interaction.reply({ ephemeral: true, content: "Success" });
